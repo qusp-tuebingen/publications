@@ -1,4 +1,5 @@
-# publications
+# Publications
+
 All publications of the QUSP research unit, see [Uni Tübingen CQS](https://uni-tuebingen.de/cqs).
 
 The `publications.bib` file is managed by JabRef and formatted using the git-hook.
