@@ -1,0 +1,16 @@
+<li id="\format{\bibtexkey}">
+  \format[Authors(LastFirst,NoPunc,InitialsNoSpace),HTMLChars]{\author},<br>
+  <b>
+    \format[HTMLChars]{\title}.<br>
+    <a
+      href="\format[DOICheck]{\doi}"
+      target="_blank"
+    >
+      \begin{journal}\format[HTMLChars,JournalAbbreviator]{\journal}
+      \end{journal}
+      \begin{volume} Vol. \volume,\end{volume}
+      \begin{pages}\format[FormatPagesForHTML]{\pages}\end{pages}
+      (\year) </a
+    >
+  </b>
+</li>
