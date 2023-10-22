@@ -1,4 +1,5 @@
-<li id="\format{\bibtexkey}">
+\begingroup{year}<h4>\year</h4>
+\endgroup{year}<li id="\format{\bibtexkey}">
   \format[Authors(LastFirst,NoPunc,InitialsNoSpace),HTMLChars]{\author},<br>
   <b>
     \format[HTMLChars]{\title}.<br>
