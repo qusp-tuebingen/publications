@@ -26,5 +26,5 @@ repos:
             "--trailing-commas",
 #            "--no-tidy-comments",
             "--remove-empty-fields",
-            "--generate-keys=[auth:required][year:required][duplicateNumber]",
+            "--generate-keys=[year][auth:required:capitalize][duplicateNumber]",
           ]
