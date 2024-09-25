@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/FlamingTempura/bibtex-tidy
-    rev: v1.11.0
+    rev: v1.12.0
     hooks:
       - id: bibtex-tidy
         name: bibtex-tidy
@@ -13,12 +13,13 @@ repos:
             "--v2",
             "--modify",
 #            "--output=sources.bib",
+            "--strip-comments",
             "--omit=issue,venue,institution,ean,language,pmid,url,journaltitle,fjournal,date",
             "--curly",
             "--numeric",
             "--months",
             "--align=17",
-#            "--blank-lines",
+            "--no-blank-lines",
             "--sort=-year,month,author",
             "--duplicates=key,citation",
             "--no-escape",
